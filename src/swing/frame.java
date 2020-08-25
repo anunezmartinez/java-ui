@@ -109,7 +109,7 @@ class DrawFigure extends JPanel{
         try {
             image = ImageIO.read(myImage);
         } catch (Exception e) {
-            //TODO: handle exception
+
             System.out.println("Image not found.");
         }
 
