@@ -2,6 +2,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "javaFX.alertBox.Main",
+            "projectName": "java-ui_6936c13b",
+            "vmArgs": " --module-path /Users/adrif/Downloads/javafx-sdk-14.0.2.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - switchingScenes",
             "request": "launch",
             "mainClass": "javaFX.switchingScenes.switchingScenes",

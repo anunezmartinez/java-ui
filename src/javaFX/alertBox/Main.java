@@ -22,6 +22,10 @@ public class Main extends Application {
 
         button = new Button("Click me to show an alert.");
 
+        button.setOnAction(e -> {
+            alertBox.displayAlert("This is an Alert", "Error, this is just a test.");
+        });
+
         StackPane layout = new StackPane();
 
         layout.getChildren().add(button);
