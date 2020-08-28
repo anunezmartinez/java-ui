@@ -2,7 +2,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Main",
+            "name": "Confirm Box Main",
             "request": "launch",
             "mainClass": "javaFX.confirmBox.Main",
             "projectName": "java-ui_a644372d",
@@ -10,7 +10,7 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Main",
+            "name": "Alert Box Main",
             "request": "launch",
             "mainClass": "javaFX.alertBox.Main",
             "projectName": "java-ui_a644372d",
@@ -18,7 +18,7 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - switchingScenes",
+            "name": "Switching Scenes Main",
             "request": "launch",
             "mainClass": "javaFX.switchingScenes.switchingScenes",
             "projectName": "java-ui_a644372d",
