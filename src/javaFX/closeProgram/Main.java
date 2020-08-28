@@ -1,4 +1,4 @@
-package javaFX.confirmBox;
+package javaFX.closeProgram;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -6,24 +6,30 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Main extends Application{
     public static void main(String[] args) {
         launch(args);
     }
 
     Stage window;
     Button button;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
 
         window = primaryStage;
 
-        window.setTitle("Confirm Box testing");
+        window.setTitle("Properly closing the program testing");
 
-        button = new Button("Click me to show an alert.");
+        window.setOnCloseRequest(e -> {
+            e.consume();
+            closeProgram();
+        });
+
+        button = new Button("Close.");
 
         button.setOnAction(e -> {
-            confirmBox.display("This is an confirm window.", "Do you drink water?");
+            closeProgram();
         });
 
         StackPane layout = new StackPane();
@@ -37,4 +43,12 @@ public class Main extends Application {
 
 
     }
+
+    private void closeProgram(){
+        Boolean answer = confirmBox.display("Closing", "Are you sure you want to close the program?");
+        if(answer){
+            window.close(); 
+        }
+    };
+
 }
