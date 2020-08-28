@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository was created in order to store all the templates and testing about Java user interfaces.
 
 ## Folder Structure
 
