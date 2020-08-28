@@ -4,6 +4,14 @@
             "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
+            "mainClass": "javaFX.confirmBox.Main",
+            "projectName": "java-ui_a644372d",
+            "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
             "mainClass": "javaFX.alertBox.Main",
             "projectName": "java-ui_a644372d",
             "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml"
