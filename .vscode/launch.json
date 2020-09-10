@@ -1,5 +1,15 @@
 {
     "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "checkbox",
+            "request": "launch",
+            "mainClass": "javaFX.checkbox.Main",
+            "projectName": "java-ui_a644372d",
+            "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml"
+        },
         {
             "type": "java",
             "name": "validateInput",
