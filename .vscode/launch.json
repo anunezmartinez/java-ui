@@ -1,6 +1,20 @@
 {
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "validateInput",
+            "request": "launch",
+            "mainClass": "javaFX.validateInput.Main",
+            "projectName": "java-ui_a644372d",
+            "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Swing Testing",
+            "request": "launch",
+            "mainClass": "swing.frame",
+            "projectName": "java-ui_a644372d"
+        },
         {
             "type": "java",
             "name": "GridPane",
